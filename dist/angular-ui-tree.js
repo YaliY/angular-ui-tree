@@ -367,7 +367,7 @@
         $scope.$type = 'uiTreeNode';
         $scope.$$apply = false; // 
 
-        $scope.collapsed = false;
+        $scope.collapsed = true;
 
         $scope.init = function(controllersArr) {
           var treeNodesCtrl = controllersArr[0];
